@@ -535,7 +535,7 @@ export default function Page() {
               ))}
             </div>
             <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-              &copy; 2021 Project Wave. All rights reserved.
+              &copy; 2021 Wave Universe. All rights reserved.
             </p>
           </div>
         </div>
