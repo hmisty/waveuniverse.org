@@ -320,11 +320,11 @@ export default function Page() {
                         wave market
                       </span>
                     </h2>
-                    <p className="mt-4 text-lg text-gray-500">
+                    <p className="mt-4 text-base sm:text-lg text-gray-500">
                       Wave Market is an open NFT marketplact supports varies of NFT assets on multiple blockchains like
                       Ethereum, Polygon (Matic PoS), Binance Smart Chain, Newton etc.
                     </p>
-                    <p className="mt-4 text-lg text-gray-500">
+                    <p className="mt-4 text-base sm:text-lg text-gray-500">
                       Optimized for entertainment industry and mainstream market, with planned multiple fiat and crypto
                       currency support, Wave Market will be a leading marketplace for mainstream to buy and trade
                       entertainment assets.
@@ -367,10 +367,10 @@ export default function Page() {
                         wave exchange
                       </span>
                     </h2>
-                    <p className="mt-4 text-lg text-gray-500">
+                    <p className="mt-4 text-base sm:text-lg text-gray-500">
                       Wave Exchange will be a complaince exchange providing crypto exchange service to all regions.
                     </p>
-                    <p className="mt-4 text-lg text-gray-500">
+                    <p className="mt-4 text-base sm:text-lg text-gray-500">
                       Trading crypto assets without borders will never be easier.
                     </p>
                   </div>
@@ -447,11 +447,11 @@ export default function Page() {
                     wave wallet
                   </span>
                 </h2>
-                <p className="mt-3 text-lg text-gray-500">An easy to use crypto wallet for everyone.</p>
-                <p className="mt-3 text-lg text-gray-500">
+                <p className="mt-3 text-base sm:text-lg text-gray-500">An easy to use crypto wallet for everyone.</p>
+                <p className="mt-3 text-base sm:text-lg text-gray-500">
                   Aimed to become the portal of entertainment industry on blockchain.
                 </p>
-                <p className="mt-3 text-lg text-gray-500">
+                <p className="mt-3 text-base sm:text-lg text-gray-500">
                   With features of multi-chain support, multi-wallet accounts, buy cryptos with fiat, built-in crypto
                   swap and a smooth experience of coin and NFTs management just like entertaining.
                 </p>
