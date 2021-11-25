@@ -7,9 +7,9 @@ import { ChevronDownIcon } from '@heroicons/react/solid'
 
 const solutions = [
   {
-    name: 'wave market',
+    name: 'wave mall',
     description: 'Multi-chain NFT Marketplace',
-    href: '/#wave-market',
+    href: '/#wave-mall',
     icon: '/assets/home/wave-market-logo.svg'
   },
   {
@@ -300,11 +300,11 @@ export default function Page() {
           </div>
         </div>
 
-        {/* Wave Market & Wave Exchange */}
+        {/* Wave Mall & Wave Exchange */}
         <div className="relative pt-16 pb-32 overflow-hidden">
           <div aria-hidden="true" className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100" />
-          {/* Wave Market */}
-          <div className="relative group" id="wave-market">
+          {/* Wave Mall */}
+          <div className="relative group" id="wave-mall">
             <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
               <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                 <div>
@@ -317,16 +317,16 @@ export default function Page() {
                           aria-hidden="true"
                           alt=""
                         />
-                        wave market
+                        wave mall
                       </span>
                     </h2>
                     <p className="mt-4 text-base sm:text-lg text-gray-500">
-                      Wave Market is an open NFT marketplact supports varies of NFT assets on multiple blockchains like
+                      Wave Mall is an open NFT marketplact supports varies of NFT assets on multiple blockchains like
                       Ethereum, Polygon (Matic PoS), Binance Smart Chain, Newton etc.
                     </p>
                     <p className="mt-4 text-base sm:text-lg text-gray-500">
                       Optimized for entertainment industry and mainstream market, with planned multiple fiat and crypto
-                      currency support, Wave Market will be a leading marketplace for mainstream to buy and trade
+                      currency support, Wave Mall will be a leading marketplace for mainstream to buy and trade
                       entertainment assets.
                     </p>
                   </div>
@@ -344,7 +344,7 @@ export default function Page() {
                   <img
                     className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none transform transition-all group-hover:scale-105 sm:group-hover:-translate-x-16"
                     src="/assets/home/wave-market.jpg"
-                    alt="Wave Market"
+                    alt="Wave Mall"
                   />
                 </div>
               </div>
