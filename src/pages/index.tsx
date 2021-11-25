@@ -321,7 +321,7 @@ export default function Page() {
                       </span>
                     </h2>
                     <p className="mt-4 text-base sm:text-lg text-gray-500">
-                      Wave Mall is an open NFT marketplact supports varies of NFT assets on multiple blockchains like
+                      Wave Mall is an open NFT marketplace supports varies of NFT assets on multiple blockchains like
                       Ethereum, Polygon (Matic PoS), Binance Smart Chain, Newton etc.
                     </p>
                     <p className="mt-4 text-base sm:text-lg text-gray-500">
