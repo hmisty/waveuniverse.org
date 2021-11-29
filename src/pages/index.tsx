@@ -19,12 +19,6 @@ const solutions = [
     icon: '/assets/home/wave-exchange-logo.svg'
   },
   {
-    name: 'wave chain',
-    description: 'A global entertainment alliance public blockchain',
-    href: '/#wave-chain',
-    icon: '/wave-logo.svg'
-  },
-  {
     name: 'wave fund',
     description: 'Promoting Wave Ecological Development',
     href: '/#wave-fund',
@@ -393,85 +387,6 @@ export default function Page() {
                     alt="Wave Exchange"
                   />
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Wave Chain */}
-        <div className="bg-gradient-to-br from-cyan-50 to-blue-200" id="wave-chain">
-          <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-            <h2 className="text-4xl font-light tracking-tight text-gray-900 text-center sm:text-left">
-              <span className="bg-gradient-to-r from-green-400 to-cyan-500 bg-clip-text text-transparent">
-                <img src="/wave-logo.svg" className="inline mr-3 h-12 w-12 " aria-hidden="true" alt="" />
-                wave chain
-              </span>
-            </h2>
-            <p className="mt-4 max-w-3xl text-lg text-cyan-800">
-              A global entertainment alliance brings the industry together to the wave chain.
-            </p>
-            <div className="mt-12 grid grid-cols-2 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
-              {features.map(feature => (
-                <div key={feature.name}>
-                  {!feature.icon ? (
-                    ''
-                  ) : (
-                    <div>
-                      <span className="flex items-center justify-center h-12 w-12">
-                        <feature.icon className="h-12 w-12 text-cyan-500" aria-hidden="true" />
-                      </span>
-                    </div>
-                  )}
-                  <div className="mt-6">
-                    <h3 className="text-base sm:text-lg font-medium text-cyan-600">{feature.name}</h3>
-                    <p className="mt-2 text-sm sm:text-base text-cyan-900">{feature.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        <div className="py-8 bg-gray-50 overflow-hidden lg:py-24">
-          <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
-            <div className="relative lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center group">
-              <div className="relative">
-                <h2 className="text-4xl font-light tracking-tight text-gray-900 text-center sm:text-left">
-                  <span className="bg-gradient-to-r from-green-400 to-cyan-500 bg-clip-text text-transparent">
-                    <img
-                      src="/assets/home/wave-exchange-logo.svg"
-                      className="inline mr-3 h-12 w-12"
-                      aria-hidden="true"
-                      alt=""
-                    />
-                    wave wallet
-                  </span>
-                </h2>
-                <p className="mt-3 text-base sm:text-lg text-gray-500">An easy to use crypto wallet for everyone.</p>
-                <p className="mt-3 text-base sm:text-lg text-gray-500">
-                  Aimed to become the portal of entertainment industry on blockchain.
-                </p>
-                <p className="mt-3 text-base sm:text-lg text-gray-500">
-                  With features of multi-chain support, multi-wallet accounts, buy cryptos with fiat, built-in crypto
-                  swap and a smooth experience of coin and NFTs management just like entertaining.
-                </p>
-
-                <div className="mt-8 border-t border-gray-200 pt-6">
-                  <blockquote>
-                    <div>
-                      <p className="text-base text-gray-500">Wave Wallet will be released along with Wave Chain.</p>
-                    </div>
-                  </blockquote>
-                </div>
-              </div>
-
-              <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
-                <img
-                  className="relative mx-auto rounded-xl shadow-xl transform transition-all group-hover:scale-105 sm:group-hover:scale-125 group-hover:rotate-6"
-                  width={280}
-                  src="/assets/home/wave-wallet.jpg"
-                  alt=""
-                />
               </div>
             </div>
           </div>
